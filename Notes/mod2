@@ -1,0 +1,41 @@
+Topic : Intorduction to WebApp
+
+   Webapp is client-server application runs on browser.
+
+   Webapp = web application + websites + webapages.
+
+2.1 BROWSER :
+	CLIENT- Computer programs that can make requests to server and fetche responds.
+
+	WEB CLIENT - When client makes request to a web server. 
+		     Eg : Browser
+
+	Browser is Web-Client, Makes request to a server using URL and render the response Data (files like .txt,  .html,  .png, .pdf etc)
+
+2.2 URL :
+	- It identifies Both serve and the resource(Web page or content)
+	- Purpose: to find resource on the Internet. 
+
+	Components: 
+	   1. Protocol : Defines the mode/rules of communication btw client and server for the request. Eg: http/https
+	   2. Hostname : Identifies the server. It contains the domain name. Eg: www.tibet.net
+	   3. Path : It defines the resource being requested. It typically points to a webpage. Eg: News /news
+	   4. Query String : Its Comes after ? symbol, It typically contains additional parameters used to add more context to the same path 
+                             Eg : Breaking news
+	   
+				   SAMPLE URL : https://www.tibet.net/news/pr?news=breaking+news
+
+2.3 DNS - Domain Name System :
+	- Its like a directory which links the domain name to IP address of the server.
+	- Every server must have unique IP address which client can use to connect with it over the internet.
+	- IP address is mapped to human readable Domain name. Basically makes it easier to remember.
+	- Name server maintains the Domain name. 
+	- DNS lookup : Programs can exchange the domain name for regestered IP address by requesting the Name server.
+
+2.4 NETWORK :
+	- User Computer -> user router -> user ISP(Internet service Provider) -> Others ISP -> finally Other Computer(Server)
+	- A program can send a request on a netWork by mentioning the IP of the other computer and internet will route your request to the computer 		  that has that IP.
+
+2.5 SERVER - WEB SERVER : 
+	- Its can listen to requests and responds back with data on the same direction.
+	- Server is technically a software installed on a computer which is called HOST.  

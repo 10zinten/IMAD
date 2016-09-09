@@ -1,0 +1,52 @@
+Title : Building WebApp
+	Steps Involes :
+		1. Get a unique Domain Name
+		2. Set up a computer with an IP address to server the Web App.
+		3. Link the Domain name with the server's IP address.
+		4. Write application code(Web Server)
+		5. Deploy application code on the computer that is the server Host.
+
+3.1 Get a Domain name
+	- Buy a domain name using domain registrars.
+	- Registrars make sure the ur domain name is unique.
+	- gandi.net, godaddy.com, name.com
+
+3.2 Set up a web server
+	option 1 : Hard !
+		1. Buy a computer
+		2. Connect it to ISP
+		3. Get a unique IP for Your Computer that won't change.
+		4. Install your OS and Web server software
+
+
+	option 2 : 
+		1. Rent a computer from a vendor somewhere else in the world.
+		2. Vendor provides the IP with which you can reach your computer.
+
+	HOSTING : Renting computational Power from vendor.
+		  Types :
+			1. Shared Hosting
+			2. Dedicated Hosting
+			3. VPS (Virtual Private server)
+			4. Cloud Hosting
+
+3.3 Link domain name to the server : 
+	- After Mapping the domain name to this IP
+	- Registrars published your mapping on their DNS servers.	
+	- DNS Propagation:
+		- The DNS system is a globlly distributed database of the Domain-name IP mappings maintained by many name server spread over the 			  internet.
+
+
+3.4 Install web server :
+	1. listen on the network
+	2. Accept a request // apache + linux
+	3. Process the Resquest
+	4. Output a response in a format that the browser will understand. // PHP + MySql
+	5. Send the resource back over the same connection on the network. // Apache + linux	
+
+3.5 Deploy Code on the Your server : 
+	common ways to remotly manage server :
+		- SSH
+		- FTP
+		- Cpanel
+		- Remote Desktop
